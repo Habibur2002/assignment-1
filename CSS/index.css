@@ -42,7 +42,7 @@ header {
 }
 
 /* main body stylinig starts here  */
-main {
+.section {
     margin: 240px 120px;
 }
 
@@ -55,40 +55,46 @@ main {
     font-size: 40px;
     font-weight: 800;
 }
-.featured-images{
+
+.featured-images {
     display: flex;
     gap: 10px;
     margin-top: 100px;
     justify-content: space-between;
 }
-.image-box{
+
+.image-box {
     height: 400px;
     width: 350px;
     border-radius: 200px 200px 0px 0px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.box-1{
+
+.box-1 {
     background-image: url("../images/pngwing\ 6.png");
     background-color: #A7216226;
 }
-.box-2{
+
+.box-2 {
     background-image: url("../images/pngwing\ 5.png");
     background-color: #2ae89c26;
 }
-.box-3{
+
+.box-3 {
     background-image: url("../images/pngwing\ 7.png");
     background-color: #e8b53426;
 }
 
-.images-container p{
+.images-container p {
     text-decoration: underline;
     padding: 8px;
     color: black;
     font-weight: 700;
 }
+
 /* this section is for the suppor ssection  */
-.support-container{
+.support-container {
     background-color: #2727270D;
     display: flex;
     justify-content: space-around;
@@ -97,6 +103,36 @@ main {
     text-align: center;
     border-radius: 10px;
 }
-.support-child{
+
+.support-child {
     font-size: 21px;
+}
+
+/* this section is for the offers ?  */
+.offer-container {
+    background-color: #f7f6f6;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+}
+
+.offer-container h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-container p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+}
+.off{
+    color: #E55473;
+    font-size: 45px;
+    font-style: italic;
+    text-transform: uppercase;
 }
