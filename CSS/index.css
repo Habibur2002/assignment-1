@@ -87,3 +87,16 @@ main {
     color: black;
     font-weight: 700;
 }
+/* this section is for the suppor ssection  */
+.support-container{
+    background-color: #2727270D;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.support-child{
+    font-size: 21px;
+}
