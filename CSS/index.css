@@ -165,10 +165,34 @@ header {
 .deal-form input[type="email"]
 {
     width: 700px;
-    height: 50px;
+    height: 55px;
     padding: 5px;
     border: 0;
     border-radius: 5px;
 }
-
+/* this is for the footer area  */
+footer{
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 100px;
+}
+.flower{
+    color: #E55473;
+    font-weight: 900;
+    font-size: 45px;
+}
+.shop{
+    
+    color:#f7f6f6;
+    font-weight: 900;
+    font-size: 45px;
+}
+.footer-container p{
+    color: #FFF;
+}
+.material-symbols-outlined{
+    color: #f7f6f6;
+    margin: 0;
+    padding: 0;
+}
 
