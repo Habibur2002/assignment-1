@@ -5,16 +5,19 @@
     margin: 0;
     padding: 0;
     color: #27272799;
+    font-size: 20px;
 }
 
 header {
-    background-color: #E554731A;
+    background-color: #2c171c1a;
 }
-.header-banner{
+
+.header-banner {
 
     padding: 200px 240px 0;
     display: flex;
 }
+
 .header-document h2 {
     color: #272727;
     font-size: 80px;
@@ -27,17 +30,60 @@ header {
     line-height: 30px;
     padding: 20px 0;
 }
-.common-button{
-color: #FFF;
-font-size: 25px;
-font-weight: 700;
-background-color: #E55473;
-border-radius: 5px;
-padding: 20px 45px;
-border: 0;
+
+.common-button {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #E55473;
+    border-radius: 5px;
+    padding: 20px 45px;
+    border: 0;
 }
 
+/* main body stylinig starts here  */
+main {
+    margin: 240px 120px;
+}
 
+.featured-flowers {
+    text-align: center;
+}
 
+.featured-flowers h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-images{
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.image-box{
+    height: 400px;
+    width: 350px;
+    border-radius: 200px 200px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-1{
+    background-image: url("../images/pngwing\ 6.png");
+    background-color: #A7216226;
+}
+.box-2{
+    background-image: url("../images/pngwing\ 5.png");
+    background-color: #2ae89c26;
+}
+.box-3{
+    background-image: url("../images/pngwing\ 7.png");
+    background-color: #e8b53426;
+}
 
-
+.images-container p{
+    text-decoration: underline;
+    padding: 8px;
+    color: black;
+    font-weight: 700;
+}
