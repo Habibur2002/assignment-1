@@ -1,0 +1,43 @@
+/* styling to applu all over the page  */
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #27272799;
+}
+
+header {
+    background-color: #E554731A;
+}
+.header-banner{
+
+    padding: 200px 240px 0;
+    display: flex;
+}
+.header-document h2 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-document p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.common-button{
+color: #FFF;
+font-size: 25px;
+font-weight: 700;
+background-color: #E55473;
+border-radius: 5px;
+padding: 20px 45px;
+border: 0;
+}
+
+
+
+
+
